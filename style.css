@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    width: 750px;
+    height: auto;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.box1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.input {
+    padding: 8px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.box1 input {
+    width: 55%;
+    color: white;
+}
+
+.box2 {
+    width: 100%;
+    margin-top: 12px;
+}
+
+td {
+    padding: 1px 12px;
+    margin-left: 4px;
+}
+
+tr {
+    border-bottom: 1px solid white;
+}
+
+tr td {
+    color: white;
+}
+
+.percentage_green {
+    color: green;
+}
+
+.percentage_red {
+    color: red;
+}
+
+.err_msg {
+    border: 1px solid white;
+    width: 750px;
+    height: 200px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.nodata_msg {
+    border: 1px solid white;
+    width: 750px;
+    height: 200px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

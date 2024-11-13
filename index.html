@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box1">
+        <input
+          class="input"
+          value=""
+          type="text"
+          id="search"
+          placeholder="Search By Name or Symbol"
+        />
+        <button onclick="sortByMkt()" class="input sort_by_cap">
+          Sort By Mkt Cap
+        </button>
+        <button onclick="sortByPercentage()" class="input sort_by_percentage">
+          Sort By Percentage
+        </button>
+      </div>
+      <div class="box2">
+        <table>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
