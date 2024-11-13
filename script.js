@@ -79,3 +79,5 @@ function createElement(data) {
     tbody.innerHTML = `<div class="nodata_msg" >No Data Found</div`;
   }
 }
+
+// Script js
