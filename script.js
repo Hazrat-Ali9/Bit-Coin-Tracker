@@ -13,7 +13,7 @@ async function fetchData() {
     tbody.innerHTML = `<div class="err_msg"  >Something went wrong</div`;
   }
 }
-
+// Script js;
 fetchData();
 
 function sortByMkt() {
